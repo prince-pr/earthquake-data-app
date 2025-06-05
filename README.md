@@ -40,7 +40,9 @@ This is a responsive and interactive web application built with React and TypeSc
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/earthquake-data-app.git
+git clone https://github.com/prince-pr/earthquake-data-app.git
+```
+```
 cd earthquake-data-app
 ```
 
