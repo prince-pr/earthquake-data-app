@@ -2,7 +2,7 @@
 
 This is a responsive and interactive web application built with React and TypeScript to visualize earthquake data using charts and tables. It allows users to explore earthquake statistics from a CSV file with dynamic filtering and interaction features.
 
-![screenshot of the project.](/assets/screenshot.png "This is a sample screenshot.")
+![screenshot of the project.](/screenshot.png "This is a sample screenshot.")
 
 ## Features
 
