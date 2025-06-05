@@ -11,6 +11,7 @@ export default function DataTable({ data, visibleCount }: DataTableProps) {
   const { selectedEarthquake, setSelectedEarthquake } = useEarthquakeStore();
   const tableRef = useRef<HTMLTableElement>(null);
 
+  // Scroll to selected earthquake row when it changes
   useEffect(() => {
     if (selectedEarthquake && tableRef.current) {
       const row = tableRef.current.querySelector(

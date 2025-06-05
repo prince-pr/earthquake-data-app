@@ -13,6 +13,7 @@ function App() {
   const [visibleCount, setVisibleCount] = useState(10);
 
   useEffect(() => {
+    // Get data and wait 1 second to show loading spinner
     Promise.all([
       fetchEarthquakeData().then(setData),
       new Promise((res) => setTimeout(res, 1000)),
@@ -28,7 +29,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#eee] py-4">
-      {/* <h1 className="text-3xl font-bold lg:text-left my-10"> */}
       <h1 className="text-3xl font-bold text-center lg:text-left my-2 ml-4">
         Earthquake Data Dashboard
       </h1>

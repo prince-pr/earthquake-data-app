@@ -28,6 +28,7 @@ export default function ChartPanel({
   const { xAxis, yAxis, setXAxis, setYAxis, selectedEarthquake } =
     useEarthquakeStore();
 
+  // Custom tooltip for scatter plot
   const CustomTooltip = ({ active, payload }: TooltipProps<number, string>) => {
     if (!active || !payload || !payload.length) return null;
     const d = payload[0].payload;
