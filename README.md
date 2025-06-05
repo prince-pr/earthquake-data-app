@@ -1,6 +1,6 @@
 # Earthquake Data Dashboard
 
-This is a responsive and interactive web application built with React and TypeScript to visualize earthquake data using charts and tables. It allows users to explore earthquake statistics from a CSV file with dynamic filtering and interaction features.
+This is a responsive and interactive web application built with React and TypeScript to visualize earthquake data using charts and tables. It allows users to explore earthquake statistics from https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv with dynamic filtering and interaction features.
 
 ![screenshot of the project.](/screenshot.png "This is a sample screenshot.")
 
